@@ -1,0 +1,41 @@
+{
+  "name": "coworking-space",
+  "version": "1.0.0",
+  "description": "APIs and features for coworking space",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "dev": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmaarHassan/RentAnything.git"
+  },
+  "author": "Amaar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmaarHassan/RentAnything/issues"
+  },
+  "homepage": "https://github.com/AmaarHassan/RentAnything#readme",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "axios": "^0.19.2",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0",
+    "pg": "^8.3.0",
+    "sequelize": "^6.3.3",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
