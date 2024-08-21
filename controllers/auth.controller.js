@@ -1,6 +1,6 @@
 const { models } = require('../models');
 const { createTokens } = require('../middlewares/jwt');
-const constants = require('../constants/schema');
+const constants = require('../schema/schema');
 
 const signUp = async (req, res, next) => {
   try {

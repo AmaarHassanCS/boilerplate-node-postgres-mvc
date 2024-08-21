@@ -1,5 +1,5 @@
-const queryBuilder = require('./queryBuilder');
-const serializeUsers = require('./serializeUsers');
+const queryBuilder = require('./query-builder');
+const serializeUsers = require('./serialize-users');
 
 module.exports = {
     queryBuilder,

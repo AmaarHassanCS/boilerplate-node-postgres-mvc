@@ -1,5 +1,5 @@
 const bcrypt = require('bcrypt');
-const constants = require('../constants/schema');
+const constants = require('../schema/schema');
 // const { userSchema, userProperties } = require('../models/userSchema');
 
 const AdminModel = (sequelize, DataTypes) => {

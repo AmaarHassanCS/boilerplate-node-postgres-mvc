@@ -22,8 +22,8 @@ const sequelize = new Sequelize(...connectOpts);
 
 console.log(connectOpts);
 const models = {
-  admin: require('./Admin.js')(sequelize, Sequelize.DataTypes),
-  membership: require('./Membership.js')(sequelize, Sequelize.DataTypes)
+  admin: require('./admin.model.js')(sequelize, Sequelize.DataTypes),
+  membership: require('./membership.model.js')(sequelize, Sequelize.DataTypes)
 };
 
 Object.keys(models).forEach(modelName => {

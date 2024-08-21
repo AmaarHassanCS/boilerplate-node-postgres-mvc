@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const membershipsController = require('../controllers/membershipsCtrl')
+const membershipsController = require('../controllers/memberships.controller')
 
 /* GET users listing. */
 router.get('/', membershipsController.getAll);
